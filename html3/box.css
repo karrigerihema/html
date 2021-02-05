@@ -1,0 +1,23 @@
+#dabba1{
+    width: 200px;
+    height: 200px;
+    padding:20px 40px;
+    margin: 60px;
+    background-color:palevioletred;
+    border: 10px solid darkmagenta;
+}
+
+#dabba2{
+    width: 200px;
+    height: 200px;
+    padding: 20px 40px;
+    margin: 20px;
+    background-color:palevioletred;
+    border: 10px solid darkmagenta;
+
+}
+
+#main{
+    display: flex;
+}
+

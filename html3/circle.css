@@ -1,0 +1,25 @@
+.circle {
+    height: 90px;
+    width: 90px;
+    background-color: #555;
+    border-radius: 50%;
+    animation:square 3s linear 6s 4;
+    position: relative;
+  }
+
+  #text{
+      text-shadow: 4px 4px 2px #00ff00;
+      animation: text 5s linear 4s 3 reverse; 
+      position: relative;
+  }
+  
+  @keyframes square{
+      from{
+          left: 0px;
+
+      }
+      to{
+          left: 800px;
+          border-radius: 100%;
+      }
+  } 
